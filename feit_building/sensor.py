@@ -48,17 +48,3 @@ class LabUnit(Enum):
     E1_B14V1 = 'E1-B14V1'
     E1_B14V2 = 'E1-B14V2'
     E1_B14V3 = 'E1-B14V3'
-
-
-LAB_SENSORS = Sensors('logins',
-                    [LabUnit.E1_04201, LabUnit.E1_05204, LabUnit.E1_05300,
-                    LabUnit.E1_053L0, LabUnit.E1_053V0, LabUnit.E1_05402,
-                    LabUnit.E1_06101, LabUnit.E1_06102, LabUnit.E1_06103,
-                    LabUnit.E1_061V2, LabUnit.E1_07403, LabUnit.E1_07404,
-                    LabUnit.E1_07405, LabUnit.E1_07406, LabUnit.E1_08409,
-                    LabUnit.E1_09405, LabUnit.E1_10104, LabUnit.E1_11300,
-                    LabUnit.E1_11302, LabUnit.E1_11403, LabUnit.E1_B1100,
-                    LabUnit.E1_B1102, LabUnit.E1_B1103, LabUnit.E1_B11V2,
-                    LabUnit.E1_B11V3, LabUnit.E1_B1203, LabUnit.E1_B1204,
-                    LabUnit.E1_B1400, LabUnit.E1_B1401, LabUnit.E1_B1402,
-                    LabUnit.E1_B1403, LabUnit.E1_B14V0, LabUnit.E1_B14V1, LabUnit.E1_B14V2, LabUnit.E1_B14V3])

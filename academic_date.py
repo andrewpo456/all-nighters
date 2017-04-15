@@ -10,17 +10,9 @@ class AcademicDate():
         self.date = date
         self.format = format
 
-    def date_str(self):
+    def date_str(self, format='%Y-%m-%dT%I:%M:%S'):
         """Convert datetime object to string."""
-        return self.date.strftime(self.format)
-
-    def add_weeks(self, weeks):
-        """Add number of weeks to date."""
-        self.date = self.date + timedelta(weeks=weeks)
-
-    def add_days(self, days):
-        """Add number of weeks to date."""
-        self.date = self.date + timedelta(days=days)
+        return self.date.strftime(format)
 
     def is_all_nighter(dateStr, parseFormat):
         """Determine if the date is out of hours (9pm - 6am the next day)."""
